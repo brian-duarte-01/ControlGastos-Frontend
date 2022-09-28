@@ -1,0 +1,43 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.ti {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.td,.td1{
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .ti{
+        font-size: 20px;
+    }
+}
+@media print{
+    .botones,.td1{
+        display: none;
+    }
+    .titulo{
+        color: black;
+    }
+    .td{
+        color: black;
+    }
+
+}
+

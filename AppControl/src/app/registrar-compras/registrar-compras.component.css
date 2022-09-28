@@ -1,0 +1,25 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.ti{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+.nuevo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+@media(max-width:600px){
+.nuevo{
+    height: auto;
+    margin-bottom: 10px;
+}
+}
